@@ -1,0 +1,12 @@
+export const facebook = {
+  clientID: 'PASTE_CLIENT_ID_HERE',
+  clientSecret: 'PASTE_CLIENT_SECRET_HERE',
+  callbackURL: 'http://localhost:3000/auth/facebook/callback',
+  profileFields: ['id', 'name', 'displayName', 'picture', 'email'],
+};
+
+export const google = {
+  clientID: 'PASTE_CLIENT_ID_HERE',
+  clientSecret: 'PASTE_CLIENT_SECRET_HERE',
+  callbackURL: 'http://localhost:3000/auth/google/callback',
+};
